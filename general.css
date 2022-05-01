@@ -212,3 +212,25 @@ body {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgb(204, 228, 218, 0.5);
 }
+
+/* HELPER/SETTINGS CLASSES */
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-right-md {
+  margin-right: 4.8rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text { 
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
