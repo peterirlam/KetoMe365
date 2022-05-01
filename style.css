@@ -1,0 +1,94 @@
+/************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #181a1b;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.nav-logo:active,
+.nav-logo:focus {
+  box-shadow: none;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 9px;
+  color: #bdb7af;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: rgb(12, 191, 93);
+}
+
+.main-nav-link:focus {
+  box-shadow: 0 0 0 0.6rem rgba(12, 191, 93, 0.3);
+}
+
+.nav-cta:link,
+.nav-cta:visited {
+  border-radius: 9px;
+  background-color: rgb(8, 132, 64);
+  border: solid 3px rgb(12, 191, 93);
+  color: rgb(232, 230, 227);
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1.2rem 3.6rem 1.2rem 2.4rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.nav-cta:hover,
+.nav-cta:active {
+  background-color: #464849;
+  border: solid 3px rgb(12, 191, 93);
+  color: rgb(12, 191, 93);
+}
+
+.nav-cta span {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-cta span:after {
+  content: "\276F";
+  position: absolute;
+  top: 0;
+  right: -20px;
+  color: rgb(232, 230, 227);
+  transition: 0.2s ease-out;
+}
+
+.nav-cta:hover span:after {
+  right: -25px;
+  color: rgb(12, 191, 93);
+}
